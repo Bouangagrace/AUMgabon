@@ -44,6 +44,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -1106,7 +1107,7 @@ courses
 --------------------------------------------- 
 */
 
-section.our-courses {
+div.elementor-column-elementor-col-20-elementor-top-column-elementor-element-elementor-element-c25c26b {
   background-image: url(../images/meetings-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
@@ -1254,14 +1255,51 @@ our facts
 ---------------------------------------------
 */
 
-section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+.jesus  {
+  background-image: url(../images/2.jpeg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px 125px 0px;
+  
 }
+.non{
+  background-image: url(../images/imagevouitoneeAUM.png);
+}
+/* styles.css */
+
+
+
+.row-wow-fadeInUp {
+  width: 100%;
+  overflow: hidden;
+}
+
+.col-6-col-md-4-col-xl-2 {
+  display: flex;
+  animation: slide-animation 10s infinite;
+}
+
+.partner_item-text-center-mb30-lg {
+  width: 100%;
+  flex: 0 0 100%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 24px;
+  color: #fff;
+  transition: transform 1s;
+}
+
+
+
+@keyframes slide-animation {
+  0% { transform: translateX(0); }
+  33.3% { transform: translateX(-100%); }
+  66.6% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
 
 section.our-facts h2 {
   font-size: 38px;
@@ -1302,7 +1340,7 @@ section.our-facts h2 {
   margin-top: 45px;
 }
 
-section.our-facts .video {
+/* section.our-facts .video {
   text-align: center;
   margin-left: 70px;
   background-image: url(../images/video-item-bg.jpg);
@@ -1310,12 +1348,12 @@ section.our-facts .video {
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
-}
+} */
 
-section.our-facts .video img {
+/* section.our-facts .video img {
   padding: 170px 0px;
   max-width: 56px;
-}
+} */
 
 
 /* 
@@ -1383,7 +1421,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #004e9b;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1455,7 +1493,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/2.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1491,7 +1529,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../images/IMG-20231104-WA0002.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1507,7 +1545,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: #004e9b;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1521,7 +1559,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #d3d803;
   color: #fff;
 }
 
@@ -1562,7 +1600,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color: #d3d803;
   color: #fff;
 }
 
@@ -1828,4 +1866,43 @@ responsive
     color: #1f272b;
   }
 
+}
+footer {
+  background-color: #004e9b;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .copyright {
+  font-size: 0.8em;
 }
