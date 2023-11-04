@@ -89,6 +89,7 @@
                 waitForAnimate: true,
                 zIndex: 1000
             };
+            
 
             _.initials = {
                 animating: false,
