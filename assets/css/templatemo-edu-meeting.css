@@ -159,7 +159,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #004e9b;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -780,7 +780,7 @@ services
 }
 
 .services .item {
-  background-image: url(../images/service-item-bg.jpg);
+  background-image: url(../images/imagevouitoneeAUM.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -889,7 +889,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/bg_programme.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1108,7 +1108,7 @@ courses
 */
 
 div.elementor-column-elementor-col-20-elementor-top-column-elementor-element-elementor-element-c25c26b {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/bg_programme.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1437,7 +1437,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #d3d803;
   border-radius: 20px;
   padding: 40px;
 }
@@ -1493,7 +1493,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/2.jpeg);
+  background-image: url(../images/WhatsApp\ Image\ 2023-11-04\ à\ 08.46.22_185bbe9a.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1529,7 +1529,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/IMG-20231104-WA0002.jpg);
+  background-image: url(../images/bg_programme.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1733,6 +1733,46 @@ section.meetings-page .pagination ul li a:hover {
 		width: 100%;
 	}
 }
+/* styles.css */
+
+
+
+.events-slider {
+  margin-top: 12%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.events-container {
+  display: flex;
+  gap: 30px;
+  transition: transform 0.3s ease;
+}
+
+.event {
+  BOX-SHADOW:rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  BORDER-RADIUS:5px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.event img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.event h2 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.event p {
+  font-size: 16px;
+}
+
 
 /* 
 ---------------------------------------------

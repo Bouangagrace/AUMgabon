@@ -32,6 +32,24 @@
           }
         });
 
+		// scripts.js
+
+let slideIndex = 0;
+const eventsContainer = document.querySelector('.events-container');
+const events = document.querySelectorAll('.event');
+
+function slideEvents() {
+    const eventWidth = events[0].clientWidth;
+    eventsContainer.style.transform = `translateX(${-eventWidth * slideIndex}px)`;
+}
+
+setInterval(() => {
+    slideIndex++;
+    if (slideIndex === events.length) {
+        slideIndex = 0;
+    }
+    slideEvents();
+}, 3000);
 
 	const Accordion = {
 	  settings: {
